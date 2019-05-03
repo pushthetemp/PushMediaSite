@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+</head>
+
+<body>
+    <div class="cover">
+        
+        <div class="container">
+
+            <div class="mediaLab">
+                <h1 id="title">
+                    media<br>done<br>different.
+                </h1>
+
+                <!-- Element Tiles -->
+                <div id="tiles">
+
+                    <div class="elementTile_Pu" id="elementCard">
+                        <p class="atomic">94</p>
+                        <h1 class="element">Pu</h1>
+                        <p id="name">Push</p>
+                    </div>
+
+                    <div class="elementTile_Md" id="elementCard">
+                        <p class="atomic">101</p>
+                        <h1 class="element">Md</h1>
+                        <p id="name">Media</p>
+                    </div>
+
+
+                    <div class="elementTile_La" id="elementCard">
+                        <p class="atomic">57</p>
+                        <h1 class="element">La</h1>
+                        <p id="name">Lab</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <h3 class="CreatorRef">Photo: <a href="https://www.instagram.com/alexhoyle328/" class="creatorLink">Alex
+                        Hoyle</a></h3>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="container">
+            <div class="copy">
+                <h1 id="about">
+                    We exist in the world to be
+                    a hub for inspiration and
+                    innovation. To find new, or
+                    at least different, ways of
+                    delivering high quality media.
+                </h1>
+                <h1 id="signOff">
+                    Welcome to the Media Lab.
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+
+
+</body>
+
+</html>
