@@ -64,7 +64,7 @@ a {
 .cover {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(222, 237, 18, 0.28), rgba(46, 53, 50, 0.28)), url(/imgs/1333.jpg);
+    background-image: linear-gradient(rgba(222, 237, 18, 0.28), rgba(46, 53, 50, 0.28)), url(1333.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -178,7 +178,7 @@ a {
 		.cover {
 			height: 100vh;
 			width: 100vw;
-			background-image: linear-gradient(rgba(222, 237, 18, 0.28), rgba(46, 53, 50, 0.28)), url(/imgs/1325.jpg);
+			background-image: linear-gradient(rgba(222, 237, 18, 0.28), rgba(46, 53, 50, 0.28)), url(1325.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
