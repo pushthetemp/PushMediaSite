@@ -59,7 +59,7 @@ body {
 @font-face {
 	font-family: 'nexa_boldregular';
 	src: url('nexa_bold-webfont.woff2') format('woff2'),
-			 url('nexa_bold-webfont.woff') format('woff');
+	url('nexa_bold-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
@@ -71,7 +71,7 @@ body {
 @font-face {
 	font-family: 'nexa_lightregular';
 	src: url('nexa_light-webfont.woff2') format('woff2'),
-			 url('nexa_light-webfont.woff') format('woff');
+	url('nexa_light-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 
@@ -81,7 +81,7 @@ body {
 
 
 body {
-	font-family: Arial, 'nexa_boldregular', sans-serif;
+	font-family: 'nexa_boldregular', Arial, sans-serif;
 	
 }
 
@@ -112,9 +112,9 @@ a {
 
   #title {
 	  width: 526px;
-		font-size: 120px;
-		font-family: 'nexa_boldregular', Arial, sans-serif;
-		letter-spacing: -4px;
+	  font-size: 120px;
+	  font-family: nexa_boldregular, Arial, sans-serif;
+	  letter-spacing: -4px;
 	  font-weight: bolder;
 	  color: #ffffff;
   }
@@ -129,7 +129,7 @@ a {
   
   #elementCard {
 	  width: 300px;
-		height: 338px;
+	  height: 338px;
 	  background-color: #E1EFE6;
 	  margin: 0 19px;
   }
@@ -144,18 +144,18 @@ a {
   .element {
 	  font-size: 133px; 
 	  font-weight: 600;
-		padding: 24px 60px;
-		font-family: 'nexa_boldregular', Arial, sans-serif;
-		letter-spacing: -5px;
-		font-style: italic;
+	  padding: 24px 60px;
+	  font-family: 'nexa_boldregular', Arial, sans-serif;
+	  letter-spacing: -5px;
+	  font-style: italic;
   }
 
   #name {
 	  font-size: 37px;
 	  float: right;
-		padding: 30px;
-		font-family: 'nexa_lightregular', Arial, sans-serif;
-		font-weight: 900;
+	  padding: 30px;
+	  font-family: 'nexa_lightregular', Arial, sans-serif;
+	  font-weight: 900;
   }
 
 
@@ -192,8 +192,8 @@ a {
   .copy	{
 	  position: relative;
 	  top: 25vh;
-		line-height: 4vw;
-		font-family: 'nexa_boldregular', Arial, sans-serif;
+	  line-height: 4vw;
+	  font-family: 'nexa_boldregular', Arial, sans-serif;
   }
 
   #about {
@@ -203,7 +203,7 @@ a {
   }
 
   #signOff {
-		padding-top: 60px;
+	padding-top: 60px;
 	color: #DEED12;
 	font-size: 5vw;
 	font-weight: 600;
@@ -281,7 +281,7 @@ a {
 	  padding: 50px 0; 
 	  color: #ffffff;
 	  font-weight: 500;
-		float: right;
+	 float: right;
 
   }
 
