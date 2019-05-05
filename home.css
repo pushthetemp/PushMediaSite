@@ -351,9 +351,11 @@ body {
 
         .logo {
 		
-			display: flex;
-			margin: 15% auto;
-		}
+	    display: flex;
+	    margin: 15% auto;
+	    text-align: center;
+            padding-left: 5%;
+	}
 
         #elementCard {
             width: 90px;
