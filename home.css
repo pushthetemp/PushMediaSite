@@ -525,3 +525,27 @@ body {
         }
 
     }
+
+
+    @media only screen and (max-width: 321px) {
+        .break {
+            display: none;
+        }
+
+        #articleImage {
+            margin: 50 auto;
+            position: relative;
+            right: 15px;
+            text-align: center;
+
+        }
+
+        .logo {
+		
+            text-align: center;
+            position: relative;
+            right: 11px;
+
+		}
+
+    }
